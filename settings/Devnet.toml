@@ -1,0 +1,9 @@
+[network]
+name = "devnet"
+node_rpc_address = "http://localhost:20443"
+deployment_fee_rate = 10
+sats_per_bytes = 10
+
+[accounts.deployer]
+mnemonic = "wife traffic cube child cattle prosper force bitter sea rich adapt modify"
+balance = 100000000000000

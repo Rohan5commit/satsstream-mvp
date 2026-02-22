@@ -1,0 +1,37 @@
+[project]
+name = "satsstream"
+authors = ["Rohan"]
+description = "Programmable Bitcoin payroll allocation on Stacks"
+telemetry = false
+requirements = []
+cache_dir = "./.cache"
+boot_contracts = []
+
+[contracts.strategy-module-trait]
+path = "contracts/strategy-module-trait.clar"
+clarity_version = 2
+epoch = 2.5
+
+[contracts.simple-yield-module]
+path = "contracts/simple-yield-module.clar"
+clarity_version = 2
+epoch = 2.5
+
+[contracts.stable-module]
+path = "contracts/stable-module.clar"
+clarity_version = 2
+epoch = 2.5
+
+[contracts.growth-module]
+path = "contracts/growth-module.clar"
+clarity_version = 2
+epoch = 2.5
+
+[contracts.core-router]
+path = "contracts/core-router.clar"
+clarity_version = 2
+epoch = 2.5
+
+[repl]
+costs_version = 2
+parser_version = 2

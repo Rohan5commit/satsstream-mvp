@@ -1,0 +1,5 @@
+[network]
+name = "testnet"
+node_rpc_address = "https://api.testnet.hiro.so"
+deployment_fee_rate = 10
+sats_per_bytes = 10

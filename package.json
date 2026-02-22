@@ -1,0 +1,20 @@
+{
+  "name": "satsstream",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "frontend",
+    "indexer"
+  ],
+  "scripts": {
+    "dev": "npm run -w frontend dev",
+    "dev:frontend": "npm run -w frontend dev",
+    "dev:indexer": "npm run -w indexer dev",
+    "build": "npm run -w frontend build && npm run -w indexer build",
+    "lint": "npm run -w frontend lint",
+    "test:contracts": "clarinet test"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

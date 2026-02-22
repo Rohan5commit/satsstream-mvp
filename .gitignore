@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# artifacts
+frontend/dist/
+indexer/dist/
+coverage/
+frontend/*.tsbuildinfo
+
+# clarinet
+.cache/
+.clarinet/
+clarity-cache/
+
+# env
+.env
+.env.*
+!.env.example
+frontend/.env
+indexer/.env
+
+# local temp
+.DS_Store
+node_modules_bad/
+_archive/
