@@ -1,6 +1,7 @@
 # SatsStream
 
 SatsStream is a Stacks-based smart allocation layer for Bitcoin-native income streams.
+Designed for Bitcoin-linked income (e.g., sBTC/USDCx on Stacks), with Clarity contracts as the settlement layer.
 A user receives periodic funds and routes each deposit into 3 buckets:
 
 - Safe savings
